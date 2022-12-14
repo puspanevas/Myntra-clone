@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    padding: .3rem;
+    text-align: center;
+    border: 2px solid #eedede;
+}
+
+.icon-holder img {
+    max-width: 60px;
+}
+
+.nav-item {
+    list-style-type: none;
+    padding: .5rem;
+    line-height: 2;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .9rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.cart-holder {
+    text-decoration: none;
+}
